@@ -1,0 +1,12 @@
+name: Gaps — Medium
+icon: alert-triangle
+color: "#f59e0b"
+sort: "property:id:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Gap
+    - field: priority
+      op: equals
+      value: medium

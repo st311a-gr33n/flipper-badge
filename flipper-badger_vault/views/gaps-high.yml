@@ -1,0 +1,12 @@
+name: Gaps — High
+icon: alert-octagon
+color: "#dc2626"
+sort: "property:id:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Gap
+    - field: priority
+      op: equals
+      value: high

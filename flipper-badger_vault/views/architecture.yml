@@ -1,0 +1,9 @@
+name: Architecture
+icon: box
+color: null
+sort: "title:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Architecture

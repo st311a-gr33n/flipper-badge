@@ -1,0 +1,6 @@
+name: All Notes
+icon: layers
+color: null
+sort: "title:asc"
+filters:
+  all: []

@@ -1,0 +1,9 @@
+name: Decisions
+icon: git-branch
+color: null
+sort: "property:id:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Decision

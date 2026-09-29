@@ -1,0 +1,22 @@
+App(
+    appid="flipper_badger",
+    name="Badger",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="badger_app",
+    cdefines=["APP_FLIPPER_BADGER"],
+    requires=[
+        "gui",
+        "storage",
+        "dialogs",
+        "notification",
+        "nfc",
+    ],
+    stack_size=4 * 1024,
+    order=30,
+    fap_icon="icons/badger_10px.png",
+    fap_icon_assets="icons",
+    fap_version=(0, 1),
+    fap_description="Digital badge: QR code, contact info, and NFC NDEF URL emulation",
+    fap_author="st3114-gr33n",
+    fap_category="Tools",
+)

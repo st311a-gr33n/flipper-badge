@@ -1,0 +1,9 @@
+name: Source Files
+icon: file-code
+color: null
+sort: "title:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Source File

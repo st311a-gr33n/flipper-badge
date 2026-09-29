@@ -1,0 +1,12 @@
+name: Open Gaps
+icon: alert-circle
+color: null
+sort: "property:id:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Gap
+    - field: status
+      op: not_equals
+      value: Resolved

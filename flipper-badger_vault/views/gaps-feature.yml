@@ -1,0 +1,12 @@
+name: Gaps — Feature
+icon: star
+color: "#10b981"
+sort: "property:id:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Gap
+    - field: priority
+      op: equals
+      value: feature
