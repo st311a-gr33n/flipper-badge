@@ -13,6 +13,12 @@ and emulate an NFC NDEF URL tag so a phone can scan it.
 | `qrcode/` | Vendored QR app (subtree of [bmatcuk/flipperzero-qrcode](https://github.com/bmatcuk/flipperzero-qrcode)). |
 | `stella-green.badger` | Sample badge config; copy to `/ext/apps_data/flipper_badger/` on the SD card. |
 
+## Screenshots
+
+![QR Code](./Screenshot-01_qr.png)
+![Contact info](./Screenshot-02_contact.png)
+![NFC mode](./Screenshot-03_nfc.png)
+
 ## Quick start
 
 1. Copy `flipper_badger.fap` into `apps/Tools/` on the Flipper's SD card.
