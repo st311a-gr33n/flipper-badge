@@ -1,0 +1,14 @@
+views:
+  - type: kanban
+    name: Gap Kanban
+    filters:
+      and:
+        - type == "Gap"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - priority
+      - tags
